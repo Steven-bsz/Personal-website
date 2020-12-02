@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Cinzel', serif;
+}
+/*==============================================GENERICS======================================================*/
+.color-black-max {
+    background-color: #121213;
+}
+.color-black-min {
+    background-color: #1B1B1C;
+}
+.container-flex {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.img-size {
+    border-radius: 100%;
+    width: 60%;
+    height: 60%;
+    padding: 20%;
+}
+.font-size {
+    font-size: 300%;
+}
+.padding-div {
+    padding: 5% 2% 5% 2%;
+    box-sizing: border-box;
+}
+.margin-top {
+    margin-top: 10%;
+}
+.icon-position {
+    text-align: center;
+}
+.color-white {
+    color: #D7D2D2;
+}
+.color-gray {
+    color: #525151;
+}
+.color-yellow {
+    color: #F9FC08;
+}
+.icon-size {
+    font-size: 40px;
+}
+/*===============================================SPESIFIC============================================================*/
+.card-html {
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #000000;
+}
+.card-css {
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #000000;
+}
+.card-js {
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 3%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #000000;
+}
+.color-wpp {
+    color: #000000;
+}
+.color-fb {
+    color: #000000;
+}
+.color-ing {
+    color: #000000;
+}
+.color-html {
+    color: #D5601E;
+}
+.color-css {
+    color: #1B7FD2;
+}
+/*==================================================PSEUDOCLASS==============================================*/
+.card-html:hover {
+    box-shadow: 0px 0px 6px #D5601E;
+}
+.card-css:hover {
+    box-shadow: 0px 0px 6px #1B7FD2;
+}
+.card-js:hover {
+    box-shadow: 0px 0px 6px #F9FC08;
+}
+.color-wpp:hover {
+    color: #10BB2D;
+}
+.color-fb:hover {
+    color: #3B5998;
+}
+.color-ing:hover {
+    color: #C13584;
+}
