@@ -20,17 +20,11 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-.img-size {
-    border-radius: 100%;
-    width: 60%;
-    height: 60%;
-    padding: 20%;
-}
 .font-size {
     font-size: 300%;
 }
 .padding-div {
-    padding: 5% 2% 5% 2%;
+    padding: 5% 2%;
     box-sizing: border-box;
 }
 .margin-top {
@@ -52,6 +46,12 @@
     font-size: 40px;
 }
 /*===============================================SPESIFIC============================================================*/
+.img-size {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    padding: 20%;
+}
 .card-html {
     box-sizing: border-box;
     padding: 1%;
